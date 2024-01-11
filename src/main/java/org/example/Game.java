@@ -4,11 +4,11 @@ import javax.swing.*;
 
 public class Game extends JFrame {
 
-    public Game(){
+    public Game() {
         setTitle("Snake");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(640,665);
-        setLocation(800,800);
+        setSize(740, 740);
+        setLocation(600, 100);
         add(new GameField());
         setVisible(true);
     }
